@@ -123,15 +123,15 @@ a {
 }
 
 .grid-container article:nth-child(2) {
-  background-color: #555555;
+  background-color: #555;
 }
 
 .grid-container article:nth-child(3) {
-  background-color: #333333;
+  background-color: #333;
 }
 
 .grid-container article:nth-child(4) {
-  background-color: #444444;
+  background-color: #444;
 }
 
 .grid-item {
@@ -192,6 +192,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   margin: 1.5em 0;
+  margin-bottom: 0;
   padding: 3.125rem 8.4375rem;
   background: #202020;
   color: white;
@@ -214,6 +215,11 @@ a {
   font-weight: bold;
   width: 68%;
   border-radius: 10px;
+  background-color: #939387;
+}
+
+.about-membership button:hover {
+  background-color: #939393;
 }
 
 .mascot {
@@ -232,4 +238,127 @@ a {
   transform: scale(0.8);
   transform: rotate(0deg);
   transform-origin: bottom left;
+}
+
+/* Latest post */
+.latest-post {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #F4F4F4;
+  padding-top: 25px;
+}
+
+.post {
+  width: 32%;
+  line-height: 1.7;
+  transition: transform 0.2s;
+}
+
+.counter-post {
+  padding: 1.5rem 2rem;
+}
+
+.post h2 {
+  text-decoration: underline;
+}
+
+.post .date {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.post .author {
+  color: gray;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.post i {
+  margin-top: 50px;
+  transform: scaleX(1.5);
+}
+
+.post:hover .arrow {
+  padding: 2.5rem 3.5rem;
+  background: #5E5E5E;
+  box-sizing: border-box;
+  margin-left: -2.5rem;
+  color: white;
+}
+
+.post:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+.counter-post:hover {
+  transform: scale(calc(1 / 1.05));
+}
+
+/* Supporters section */
+.supporters {
+  width: 385px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 11px;
+  padding: 2em 2em;
+}
+
+.supporters p {
+  text-align: center;
+}
+
+.supporters img {
+  width: 175px;
+  height: 30px;
+}
+
+.supporters button {
+  font-size: 0.8rem;
+  padding: 10px 14px;
+  width: 160px;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+  border: 0;
+}
+
+.supporters button:hover {
+  background-color: #000000;
+}
+
+/* Users and login section*/
+.users img {
+  width: 258px;
+  height: 290px;
+  filter: grayscale(100%);
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3D3D3D;
+  width: 450px;
+  height: 745px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.users h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.users p {
+  text-align: center;
+  line-height: 1.7;
+  font-size: 1.2rem;
 }
