@@ -64,6 +64,19 @@ body {
   border: 1px solid rgba(0,0,0,.05);
 }
 
+.search-bar input {
+  padding: 1rem;
+  border-radius: 11px;
+  width: 226px;
+  padding-left: 3rem;
+}
+
+.search-bar i {
+  position: relative;
+  left: 35px;
+  font-size: 20px;
+}
+
 /*latest articles*/
 
 .heading-article {
