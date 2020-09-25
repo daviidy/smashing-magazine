@@ -3,8 +3,9 @@ body {
   margin: 0;
   background-color: #fff;
   overflow-x: hidden;
-  width: 1440px;
 }
+
+/*menu*/
 
 .header {
   display: flex;
@@ -27,7 +28,7 @@ body {
 }
 
 .header-nav {
-  width: 1000px;
+  width: 95rem;
   margin-right: 5rem;
 }
 
@@ -61,4 +62,101 @@ body {
   padding: .35em .5rem .35em 1rem;
   border-radius: 11px;
   border: 1px solid rgba(0,0,0,.05);
+}
+
+/*latest articles*/
+
+.heading-article {
+  position: absolute;
+  top: 120px;
+  margin-bottom: 25px;
+  width: 40%;
+  text-align: center;
+  z-index: 99;
+  height: 120px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.heading-article h1 {
+  width: 50%;
+  background: #000;
+  color: #fff;
+  margin: auto;
+  padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container article {
+  padding: 10em 5vw 7em;
+}
+
+.grid-container article:nth-child(1) {
+  background-color: #505050;
+}
+
+.grid-container article:nth-child(2) {
+  background-color: #555555;
+}
+
+.grid-container article:nth-child(3) {
+  background-color: #333333;
+}
+
+.grid-container article:nth-child(4) {
+  background-color: #444444;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item figure{
+  float: left;
+}
+
+.grid-item img {
+  transform: rotate(-20deg);
+  border: 5px solid #fff;
+  border-radius: 8px;
+  width: 70px;
+  transition: transform 0.2s;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+.grid-item img:hover {
+  transform: rotate(0deg);
+}
+
+.grid-item p {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.grid-item span {
+  font-style: italic;
+}
+
+.grid-item h2 a:nth-child(1) {
+  font-size: 2.7rem;
+}
+
+.grid-item h2 a:nth-child(2) {
+  font-size: 1rem;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.grid-item ul {
+  list-style: none;
 }
