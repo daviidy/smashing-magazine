@@ -1,3 +1,4 @@
+/* Global Setting */
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -5,13 +6,17 @@ body {
   overflow-x: hidden;
 }
 
-/*menu*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+/* menu */
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
   width: 100%;
   align-items: center;
   padding: 1rem 2rem;
@@ -61,7 +66,7 @@ body {
   color: #fff;
   padding: .35em .5rem .35em 1rem;
   border-radius: 11px;
-  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(0, 0, 0, .05);
   width: 100px;
 }
 
@@ -84,7 +89,6 @@ body {
 }
 
 /*latest articles*/
-
 .heading-article {
   position: absolute;
   top: 120px;
@@ -135,7 +139,7 @@ body {
   flex-direction: column;
 }
 
-.grid-item figure{
+.grid-item figure {
   float: left;
 }
 
@@ -178,4 +182,54 @@ body {
 
 .grid-item ul {
   list-style: none;
+}
+
+/* About Membership */
+.membership {
+  height: 432px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1.5em 0;
+  padding: 3.125rem 8.4375rem;
+  background: #202020;
+  color: white;
+  position: relative;
+}
+
+.about-membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+  height: 100%;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-membership button {
+  padding: 1.125rem 1.4375rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 68%;
+  border-radius: 10px;
+}
+
+.mascot {
+  border-style: none;
+  position: absolute;
+  left: 840px;
+  top: -130px;
+  filter: grayscale(100%);
+  transform: scale(0.8);
+  transform: rotate(-20deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s;
+}
+
+.mascot:hover {
+  transform: scale(0.8);
+  transform: rotate(0deg);
+  transform-origin: bottom left;
 }
