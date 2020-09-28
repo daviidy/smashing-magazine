@@ -155,7 +155,7 @@ a {
   float: left;
 }
 
-.grid-item img {
+.grid-item img, .community-section img {
   transform: rotate(-20deg);
   transform-origin: bottom left;
   border: 5px solid #fff;
@@ -204,7 +204,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 1.5em 0;
   margin-bottom: 0;
   padding: 3.125rem 8.4375rem;
   background: #202020;
@@ -259,7 +258,7 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
   background: #f4f4f4;
-  padding-top: 25px;
+  padding: 5rem;
 }
 
 .post {
@@ -410,7 +409,7 @@ a {
   text-align: center;
 }
 
-.new p {
+.new p, .click-section p {
   width: 35em;
   margin: 20px auto;
   line-height: 1.7;
@@ -426,4 +425,66 @@ a {
 
 .load-more a {
   border-bottom: solid 5px #3d3d3d;
+}
+
+/*meet click section*/
+
+.click-section {
+  padding: 5rem;
+  background-color: #3d3d3d;
+  color: #fff;
+  text-align: center;
+}
+
+.click-section div{
+  margin: auto;
+  width: 70%;
+}
+
+.click-section h2 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.click-section img {
+  margin-top: 5rem;
+  filter: grayscale(100%);
+}
+
+/*community section*/
+
+.community-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.community-section img {
+  width: 160px;
+}
+
+.community-section-container {
+  padding: 5rem;
+}
+
+.person-week {
+  display: flex;
+  flex-direction: row;
+  filter: grayscale(100%);
+}
+
+.person-week-image {
+  padding-top: 3rem;
+}
+
+.person-week h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.person-week p {
+  margin: 20px auto;
+  line-height: 1.7;
+  font-size: 18px;
 }
