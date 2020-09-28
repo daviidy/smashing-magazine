@@ -4,7 +4,7 @@
 
 > Clone of Smashing Magazine webpage that shows heatmap of the page
 
-![screenshot](app_screenshot.png)
+![screenshot](img/app_screenshot.png)
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/daviidy/smashing-magazine/feature-branch/index.html)
+[Live Demo Link](https://daviidy.github.io/smashing-magazine/)
 
 ## Authors
 
@@ -25,15 +25,10 @@
 
 👤 **David Yao**
 
-- GitHub: [@](https://github.com/daviidy)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [@](https://www.linkedin.com/)
+- GitHub: [@daviidy](https://github.com/daviidy)
+- Twitter: [@davidyao3](https://twitter.com/DavidYao3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-yao-6bb95299/)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -42,7 +37,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Smashing Magazine
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

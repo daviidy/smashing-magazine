@@ -7,7 +7,7 @@
   <title>Smashing Magazine — For Web Designers And Developers</title>
   <link rel="icon" href="https://www.smashingmagazine.com//images/favicon/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/016a3b4736.js"></script>
 </head>
@@ -56,7 +56,7 @@
         <li class="search-bar">
           <form class="">
             <i class="fas fa-search"></i>
-            <input type="text" name="" value="" placeholder="Search articles...">
+            <input type="text" placeholder="Search articles...">
           </form>
         </li>
 
@@ -166,12 +166,12 @@
           <li>New discounts on tools, services and tutorials,</li>
           <li>...plus a seasoned selection of fancy cats.</li>
         </ul>
-        <a href="https://www.smashingmagazine.com/membership/">
-          <button type="button" name="button">
-            About Smashing Membership
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          </button>
+
+        <a class="about-button" href="https://www.smashingmagazine.com/membership/">
+          About Smashing Membership
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
         </a>
+
       </div>
 
       <img class="mascot" src="https://www.smashingmagazine.com/images/smashing-cat/cat-firechat.svg" alt="Smashing Cat, sitting in front of a fireplace.">
@@ -237,9 +237,9 @@
         <div class="shopify">
           <img src="https://cats.smashing.services/catch?uri=https://res.cloudinary.com/indysigner/image/upload/c_scale,w_250/v1598870722/ads/ShopifyPartners-Panel.svg" alt="Smashing Cat brewing a fresh, tasty cappuccino.">
           <p>Earn recurring revenue designing and developing eCommerce stores</p>
-          <button type="button" name="button">
-            <a href="https://cats.smashing.services/ball?uri=https://bit.ly/2QHapBz">SIGN UP TODAY</a>
-          </button>
+          <a href="https://cats.smashing.services/ball?uri=https://bit.ly/2QHapBz">
+            SIGN UP TODAY
+          </a>
         </div>
       </div>
 
@@ -249,12 +249,10 @@
         <p>A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month.
           <a class="link" href="https://www.smashingmagazine.com/membership/">Join the family.</a>
         </p>
-        <button type="button" name="button" class="small-button">
-          <a href="https://www.smashingmagazine.com/membership">
-            Explore Features
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          </a>
-        </button>
+        <a class="small-button" href="https://www.smashingmagazine.com/membership">
+          Explore Features
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </a>
         <p>Already have an account?
           <a class="link" href="https://www.smashingmagazine.com/auth/ ">Sign in!</a>
         </p>
@@ -338,12 +336,10 @@
       <p>A channel where seasoned developers show how they design, build, work and play. Coming up next:
         <a class="link" href="https://www.smashingmagazine.com/smashing-tv/all-about-icons/">All About Icons</a> with Marc Edwards (Oct 20).
       </p>
-      <button type="button" name="button" class="small-button">
-        <a href="https://www.smashingmagazine.com/smashing-tv/">
-          See all upcoming episodes
-          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-        </a>
-      </button>
+      <a class="small-button" href="https://www.smashingmagazine.com/smashing-tv/">
+        See all upcoming episodes
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+      </a>
       <p>Already have an account?
         <a class="link" href="https://www.smashingmagazine.com/auth/ ">Sign in!</a>
       </p>
@@ -370,11 +366,9 @@
           <strong>boost business KPIs</strong>
           , build trust and address doubts effectively — without alienating people along the way. By Paul Boag.
         </p>
-        <a href="https://www.smashingmagazine.com/smashing-tv/">
-          <button type="button" name="button" class="small-button">
-            Jump to table of contents
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          </button>
+        <a class="small-button" href="https://www.smashingmagazine.com/smashing-tv/">
+          Jump to table of contents
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
         </a>
         <a href="#">
           <img src="https://www.smashingmagazine.com/images/books/click__homepage-illustration.svg" alt="">
@@ -530,11 +524,9 @@
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <a href="https://www.smashingmagazine.com/printed-books/design-systems/">
-          <button type="button" name="button" class="small-button">
-            Jump to table of contents
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          </button>
+        <a class="small-button" href="https://www.smashingmagazine.com/printed-books/design-systems/">
+          Jump to table of contents
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
         </a>
       </div>
       <div class="book-img">
@@ -551,10 +543,8 @@
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <a href="https://www.smashingmagazine.com/printed-books/design-systems/">
-          <button type="button" name="button" class="small-button">
+        <a class="small-button" href="https://www.smashingmagazine.com/printed-books/design-systems/">
             Jump to table of contents
-          </button>
         </a>
       </div>
 
@@ -565,10 +555,8 @@
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <a href="https://www.smashingmagazine.com/printed-books/design-systems/">
-          <button type="button" name="button" class="small-button">
+        <a class="small-button" href="https://www.smashingmagazine.com/printed-books/design-systems/">
             Jump to table of contents
-          </button>
         </a>
       </div>
 
@@ -579,10 +567,8 @@
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <a href="https://www.smashingmagazine.com/printed-books/design-systems/">
-          <button type="button" name="button" class="small-button">
+        <a class="small-button" href="https://www.smashingmagazine.com/printed-books/design-systems/">
             Jump to table of contents
-          </button>
         </a>
       </div>
       <!-- NewsLetter section -->
@@ -593,11 +579,9 @@
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <div class="email">
-          <input type="text" name="" value="" placeholder="Your Email">
-          <a href="https://www.smashingmagazine.com/membership">
-            <button type="button" name="button" class="small-button">
+          <input type="text" placeholder="Your Email">
+          <a class="small-button" href="https://www.smashingmagazine.com/membership">
               Meow!
-            </button>
           </a>
         </div>
         <p class="foot">

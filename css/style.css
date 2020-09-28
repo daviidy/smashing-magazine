@@ -21,6 +21,8 @@ a {
   padding: 20px 30px;
   color: #3d3d3d;
   font-weight: bold;
+  background-color: #f4f4f4;
+  display: inline-block;
 }
 
 .dark1 {
@@ -204,7 +206,7 @@ a {
   line-height: 1.7;
 }
 
-.about-membership button {
+.about-membership .about-button {
   padding: 1.125rem 1.4375rem;
   font-size: 1.3rem;
   font-weight: bold;
@@ -269,7 +271,6 @@ a {
 }
 
 .post i {
-  /* margin-top: 100px; */
   transform: scaleX(1.5);
 }
 
@@ -300,7 +301,7 @@ a {
   height: 30px;
 }
 
-.shopify button {
+.shopify a {
   font-size: 0.8rem;
   padding: 10px 14px;
   width: 160px;
@@ -339,6 +340,10 @@ a {
   text-align: center;
   line-height: 1.7;
   font-size: 1.2rem;
+}
+
+.users .small-button {
+  background-color: #f4f4f4;
 }
 
 /* New Section */
@@ -525,17 +530,17 @@ a {
   font-weight: bold;
 }
 
-.guides .dark1 button {
+.guides .dark1 .small-button {
   color: white;
   background-color: #8c8c8c;
 }
 
-.guides .dark2 button {
+.guides .dark2 .small-button {
   color: white;
   background-color: #6c6c6c;
 }
 
-.guides .dark3 button {
+.guides .dark3 .small-button {
   color: white;
   background-color: #313131;
 }
