@@ -25,9 +25,9 @@
 
 👤 **David Yao**
 
-- GitHub: [@](https://github.com/daviidy)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [@](https://www.linkedin.com/)
+- GitHub: [@daviidy](https://github.com/daviidy)
+- Twitter: [@davidyao3](https://twitter.com/DavidYao3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-yao-6bb95299/)
 
 ## 🤝 Contributing
 
