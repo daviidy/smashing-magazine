@@ -168,14 +168,6 @@ a {
   font-style: italic;
 }
 
-.grid-item h2 a:nth-child(1) {
-  font-size: 2.7rem;
-}
-
-.grid-item h2 a:nth-child(2) {
-  font-size: 1rem;
-}
-
 .grid-item a {
   text-decoration: none;
   color: #fff;
@@ -672,6 +664,14 @@ footer {
 
 .grid-container article:nth-child(4) {
   background-color: #444;
+}
+
+.grid-item h2 a:nth-child(1) {
+  font-size: 2.7rem;
+}
+
+.grid-item h2 a:nth-child(2) {
+  font-size: 1rem;
 }
 
 /* hover */
