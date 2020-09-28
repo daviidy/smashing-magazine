@@ -68,23 +68,6 @@ a {
   align-items: center;
 }
 
-.ul-nav li {
-  margin-right: 2rem;
-}
-
-.ul-nav a:hover {
-  background-color: #3e3e3e;
-  color: #fff;
-  border-radius: 11px;
-}
-
-.ul-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.3rem;
-  padding: 0.35em 0.5rem 0.35em 1rem;
-}
-
 .ul-nav button {
   background-color: #3e3e3e;
   color: #fff;
@@ -92,6 +75,22 @@ a {
   border-radius: 11px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   width: 100px;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ul-nav li {
+  margin-right: 2rem;
+}
+
+.ul-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.35em 0.5rem 0.35em 1rem;
 }
 
 .search-bar {
@@ -177,10 +176,6 @@ a {
   box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
 }
 
-.grid-item img:hover {
-  transform: rotate(0deg);
-}
-
 .grid-item p {
   font-size: 1.2rem;
   display: inline-block;
@@ -200,10 +195,7 @@ a {
   font-size: 1rem;
 }
 
-.grid-item a {
-  text-decoration: none;
-  color: #fff;
-}
+
 
 .grid-item ul {
   list-style: none;
@@ -242,9 +234,7 @@ a {
   background-color: #939387;
 }
 
-.about-membership button:hover {
-  background-color: #939393;
-}
+
 
 .mascot {
   border-style: none;
@@ -256,12 +246,6 @@ a {
   transform: rotate(-20deg);
   transform-origin: bottom left;
   transition: transform 0.2s;
-}
-
-.mascot:hover {
-  transform: scale(0.8);
-  transform: rotate(0deg);
-  transform-origin: bottom left;
 }
 
 /* Latest post */
@@ -311,24 +295,6 @@ a {
   transform: scaleX(1.5);
 }
 
-.post:hover .arrow {
-  padding: 2.5rem 3.5rem;
-  background: #5e5e5e;
-  box-sizing: border-box;
-  margin-left: -2.5rem;
-  margin-bottom: -38px;
-  color: white;
-}
-
-.post:hover {
-  transform: scale(1.05);
-  background: white;
-}
-
-.counter-post:hover {
-  transform: scale(calc(1 / 1.05));
-}
-
 /* Supporters section */
 .supporters {
   text-align: center;
@@ -364,10 +330,6 @@ a {
   color: white;
   background-color: gray;
   border: 0;
-}
-
-.shopify button:hover {
-  background-color: #000;
 }
 
 /* Users and login section */
@@ -556,10 +518,6 @@ a {
   transition: transform 0.2s;
 }
 
-.featured-book .book-img img:hover {
-  transform: rotate(0deg);
-}
-
 /* Guides section */
 .guides {
   display: flex;
@@ -653,7 +611,6 @@ a {
   text-align: center;
 }
 
-
 /*footer*/
 
 footer {
@@ -714,4 +671,50 @@ footer {
   flex-direction: row;
   list-style: none;
   padding: 0;
+}
+
+.post:hover .arrow {
+  padding: 2.5rem 3.5rem;
+  background: #5e5e5e;
+  box-sizing: border-box;
+  margin-left: -2.5rem;
+  margin-bottom: -38px;
+  color: white;
+}
+
+.grid-item img:hover {
+  transform: rotate(0deg);
+}
+
+.featured-book .book-img img:hover {
+  transform: rotate(0deg);
+}
+
+.ul-nav a:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-radius: 11px;
+}
+
+.about-membership button:hover {
+  background-color: #939393;
+}
+
+.mascot:hover {
+  transform: scale(0.8);
+  transform: rotate(0deg);
+  transform-origin: bottom left;
+}
+
+.post:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+.counter-post:hover {
+  transform: scale(calc(1 / 1.05));
+}
+
+.shopify button:hover {
+  background-color: #000;
 }
