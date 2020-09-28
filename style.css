@@ -59,6 +59,9 @@ a {
 .header-nav {
   width: 95rem;
   margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .ul-nav {
@@ -621,6 +624,12 @@ footer {
   margin: auto;
   height: 200px;
   margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-topics li {
