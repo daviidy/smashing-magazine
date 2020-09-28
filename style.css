@@ -652,3 +652,66 @@ a {
   width: 80%;
   text-align: center;
 }
+
+
+/*footer*/
+
+footer {
+  background: url("https://www.smashingmagazine.com/images/footer/laptop__left.svg"),url("https://www.smashingmagazine.com/images/smashing-cat/cat-the-behemoth.svg");
+  background-position: left 15% bottom 1em,right 12% bottom 2em;
+  background-size: 11em auto,14em auto;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  background-color: #5A5A5A;
+  color: #fff;
+  filter: grayscale(100%);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-topics {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-topics h4 {
+  color: #fff;
+  font-size: 1.2em;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.footer-topics ul {
+  margin: auto;
+  height: 200px;
+  margin-top: 2rem;
+}
+
+.footer-topics li {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  float: left;
+  margin-bottom: 1rem;
+}
+
+.footer-notes {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.footer-links {
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
