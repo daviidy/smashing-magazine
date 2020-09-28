@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/daviidy/smashing-magazine/feature-branch/index.html)
+[Live Demo Link](https://daviidy.github.io/smashing-magazine/)
 
 ## Authors
 
