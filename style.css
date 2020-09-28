@@ -483,6 +483,12 @@ a {
   margin-left: 400px;
 }
 
+.news-letter img {
+  width: 258px;
+  height: 290px;
+  filter: grayscale(100%);
+}
+
 .featured-book .book-img img {
   width: 270px;
   filter: grayscale(100%);
@@ -666,6 +672,12 @@ footer {
   background-color: #444;
 }
 
+.ul-nav a:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-radius: 11px;
+}
+
 .grid-item h2 a:nth-child(1) {
   font-size: 2.7rem;
 }
@@ -690,12 +702,6 @@ footer {
 
 .featured-book .book-img img:hover {
   transform: rotate(0deg);
-}
-
-.ul-nav a:hover {
-  background-color: #3e3e3e;
-  color: #fff;
-  border-radius: 11px;
 }
 
 .about-membership button:hover {
