@@ -551,12 +551,6 @@ a {
   color: white;
 }
 
-.news-letter img {
-  width: 258px;
-  height: 290px;
-  filter: grayscale(100%);
-}
-
 .news-letter h2 {
   font-size: 2.5rem;
   text-align: center;
