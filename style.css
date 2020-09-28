@@ -488,3 +488,24 @@ a {
   line-height: 1.7;
   font-size: 18px;
 }
+
+.community-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  margin-top: 5rem;
+}
+
+.community-grid-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.community-img {
+  padding-top: 1rem;
+}
+
+.community-grid-item img {
+  width: 75px;
+  filter: grayscale(100%);
+}
