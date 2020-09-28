@@ -23,6 +23,18 @@ a {
   font-weight: bold;
 }
 
+.dark1 {
+  color: #555;
+}
+
+.dark2 {
+  color: #444;
+}
+
+.dark3 {
+  color: #333;
+}
+
 /* menu */
 .header {
   display: flex;
@@ -508,4 +520,79 @@ a {
 .community-grid-item img {
   width: 75px;
   filter: grayscale(100%);
+}
+
+/* Featured Book section */
+.featured-book {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 50px;
+  position: relative;
+}
+
+.featured-book h2 {
+  font-size: 3rem;
+}
+
+.featured-book p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.featured-book .book-img {
+  margin-left: 400px;
+}
+
+.featured-book .book-img img {
+  width: 270px;
+  filter: grayscale(100%);
+  position: absolute;
+  right: 95px;
+  top: -30px;
+  transform: rotate(-10deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s;
+}
+
+.featured-book .book-img img:hover {
+  transform: rotate(0deg);
+}
+
+/* Guides section */
+.guides {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 50px;
+}
+
+.guide-item {
+  background: #fff;
+  width: 35%;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding: 50px;
+  border-radius: 11px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.guide-item h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.guides .dark1 button {
+  color: white;
+  background-color: #8c8c8c;
+}
+
+.guides .dark2 button {
+  color: white;
+  background-color: #6c6c6c;
+}
+
+.guides .dark3 button {
+  color: white;
+  background-color: #313131;
 }
