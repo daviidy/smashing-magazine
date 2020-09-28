@@ -1,0 +1,730 @@
+/* Global Setting */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.small-button {
+  border-radius: 11px;
+  border: 0;
+  padding: 20px 30px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+.dark1 {
+  color: #555;
+}
+
+.dark2 {
+  color: #444;
+}
+
+.dark3 {
+  color: #333;
+}
+
+/* menu */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5a5a5a;
+  width: 100%;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 95px;
+  box-sizing: border-box;
+}
+
+.header-div {
+  padding-top: 1rem;
+}
+
+.header-div img {
+  height: 3.5em;
+}
+
+.header-nav {
+  width: 95rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+.ul-nav li {
+  margin-right: 2rem;
+}
+
+.ul-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.35em 0.5rem 0.35em 1rem;
+}
+
+.ul-nav button {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 0.35em 0.5rem 0.35em 1rem;
+  border-radius: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  width: 100px;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  padding: 1rem;
+  border-radius: 11px;
+  width: 226px;
+  padding-left: 3rem;
+}
+
+.search-bar i {
+  position: relative;
+  left: 16px;
+  font-size: 20px;
+  top: 35px;
+}
+
+/* latest articles */
+.heading-article {
+  position: absolute;
+  top: 120px;
+  margin-bottom: 25px;
+  width: 40%;
+  text-align: center;
+  z-index: 99;
+  height: 120px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.heading-article h1 {
+  width: 50%;
+  background: #000;
+  color: #fff;
+  margin: auto;
+  padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container article {
+  padding: 10em 5vw 7em;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item figure {
+  float: left;
+}
+
+.grid-item img,
+.community-section img {
+  transform: rotate(-20deg);
+  transform-origin: bottom left;
+  border: 5px solid #fff;
+  border-radius: 8px;
+  width: 70px;
+  transition: transform 0.2s;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+  filter: grayscale(100%);
+}
+
+.grid-item p {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.grid-item span {
+  font-style: italic;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.grid-item ul {
+  list-style: none;
+}
+
+/* About Membership */
+.membership {
+  height: 432px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding: 3.125rem 8.4375rem;
+  background: #202020;
+  color: white;
+  position: relative;
+}
+
+.about-membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+  height: 100%;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-membership button {
+  padding: 1.125rem 1.4375rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 68%;
+  border-radius: 10px;
+  background-color: #939387;
+  color: white;
+}
+
+.mascot {
+  border-style: none;
+  width: 250px;
+  position: absolute;
+  left: 930px;
+  top: -50px;
+  filter: grayscale(100%);
+  transform: rotate(-20deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s;
+}
+
+/* Latest post */
+.latest-post {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #f4f4f4;
+  padding: 5rem;
+}
+
+.post {
+  width: 32%;
+  line-height: 1.7;
+  transition: transform 0.5s;
+}
+
+.counter-post {
+  padding: 1.5rem 2rem;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post h2 {
+  text-decoration: underline;
+}
+
+.post .date {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.post .author {
+  color: gray;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.post a {
+  width: 100px;
+}
+
+.post i {
+  /* margin-top: 100px; */
+  transform: scaleX(1.5);
+}
+
+/* Supporters section */
+.supporters {
+  text-align: center;
+}
+
+.shopify {
+  width: 385px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 11px;
+  padding: 2em 2em;
+  filter: grayscale(100%);
+}
+
+.shopify p {
+  text-align: center;
+}
+
+.shopify img {
+  width: 175px;
+  height: 30px;
+}
+
+.shopify button {
+  font-size: 0.8rem;
+  padding: 10px 14px;
+  width: 160px;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+  border: 0;
+}
+
+/* Users and login section */
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3d3d3d;
+  width: 400px;
+  height: 745px;
+  padding: 30px;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.users img {
+  width: 258px;
+  height: 290px;
+  filter: grayscale(100%);
+}
+
+.users h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.users p {
+  text-align: center;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+/* New Section */
+.new {
+  background-color: #3d3d3d;
+  margin: 0 50px;
+  padding: 50px 0;
+  border-radius: 11px;
+  text-align: center;
+  color: white;
+}
+
+.new img {
+  filter: grayscale(100%);
+  width: 240px;
+}
+
+.new h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.new p,
+.click-section p {
+  width: 35em;
+  margin: 20px auto;
+  line-height: 1.7;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Load More Section */
+.load-more {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.load-more a {
+  border-bottom: solid 5px #3d3d3d;
+}
+
+/* meet click section */
+
+.click-section {
+  padding: 5rem;
+  background-color: #3d3d3d;
+  color: #fff;
+  text-align: center;
+}
+
+.click-section div {
+  margin: auto;
+  width: 70%;
+}
+
+.click-section h2 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.click-section img {
+  margin-top: 5rem;
+  filter: grayscale(100%);
+}
+
+/* community section */
+
+.community-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.community-section img {
+  width: 160px;
+}
+
+.community-section-container {
+  padding: 5rem;
+}
+
+.person-week {
+  display: flex;
+  flex-direction: row;
+  filter: grayscale(100%);
+}
+
+.person-week-image {
+  padding-top: 3rem;
+}
+
+.person-week h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.person-week p {
+  margin: 20px auto;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.community-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  margin-top: 5rem;
+}
+
+.community-grid-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.community-img {
+  padding-top: 1rem;
+}
+
+.community-grid-item img {
+  width: 75px;
+  filter: grayscale(100%);
+}
+
+/* Featured Book section */
+.featured-book {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 50px;
+  position: relative;
+}
+
+.featured-book h2 {
+  font-size: 3rem;
+}
+
+.featured-book p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.featured-book .book-img {
+  margin-left: 400px;
+}
+
+.news-letter img {
+  width: 258px;
+  height: 290px;
+  filter: grayscale(100%);
+}
+
+.featured-book .book-img img {
+  width: 270px;
+  filter: grayscale(100%);
+  position: absolute;
+  right: 95px;
+  top: -30px;
+  transform: rotate(-10deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s;
+}
+
+/* Guides section */
+.guides {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 50px 0 50px;
+}
+
+.guide-item {
+  background: #fff;
+  width: 38%;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding: 50px;
+  border-radius: 11px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.guide-item h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.guides .dark1 button {
+  color: white;
+  background-color: #8c8c8c;
+}
+
+.guides .dark2 button {
+  color: white;
+  background-color: #6c6c6c;
+}
+
+.guides .dark3 button {
+  color: white;
+  background-color: #313131;
+}
+
+/* NewsLetter section */
+
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #555;
+  width: 38%;
+  padding: 50px;
+  border-radius: 11px;
+  color: white;
+}
+
+.news-letter h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.news-letter p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.news-letter .email {
+  width: 100%;
+}
+
+.news-letter .email input {
+  width: 60%;
+  padding: 20px;
+  margin-right: 0;
+  color: white;
+  border-bottom-left-radius: 11px;
+  border-top-left-radius: 11px;
+  border: 0;
+}
+
+.news-letter .email button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -5px;
+}
+
+.news-letter .foot {
+  background-color: #646464;
+  border-radius: 11px;
+  width: 80%;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: url("https://www.smashingmagazine.com/images/footer/laptop__left.svg"), url("https://www.smashingmagazine.com/images/smashing-cat/cat-the-behemoth.svg");
+  background-position: left 15% bottom 1em, right 12% bottom 2em;
+  background-size: 11em auto, 14em auto;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  background-color: #5a5a5a;
+  color: #fff;
+  filter: grayscale(100%);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-topics {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-topics h4 {
+  color: #fff;
+  font-size: 1.2em;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.footer-topics ul {
+  margin: auto;
+  height: 200px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-topics li {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  float: left;
+  margin-bottom: 1rem;
+}
+
+.footer-notes {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.footer-links {
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.grid-container article:nth-child(1) {
+  background-color: #505050;
+}
+
+.grid-container article:nth-child(2) {
+  background-color: #555;
+}
+
+.grid-container article:nth-child(3) {
+  background-color: #333;
+}
+
+.grid-container article:nth-child(4) {
+  background-color: #444;
+}
+
+.ul-nav a:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-radius: 11px;
+}
+
+.grid-item h2 a:nth-child(1) {
+  font-size: 2.7rem;
+}
+
+.grid-item h2 a:nth-child(2) {
+  font-size: 1rem;
+}
+
+/* hover */
+.post:hover .arrow {
+  padding: 2.5rem 3.5rem;
+  background: #5e5e5e;
+  box-sizing: border-box;
+  margin-left: -2.5rem;
+  margin-bottom: -38px;
+  color: white;
+}
+
+.grid-item img:hover {
+  transform: rotate(0deg);
+}
+
+.featured-book .book-img img:hover {
+  transform: rotate(0deg);
+}
+
+.about-membership button:hover {
+  background-color: #939393;
+}
+
+.mascot:hover {
+  transform: scale(0.8);
+  transform: rotate(0deg);
+  transform-origin: bottom left;
+}
+
+.post:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+.counter-post:hover {
+  transform: scale(calc(1 / 1.05));
+}
+
+.shopify button:hover {
+  background-color: #000;
+}
