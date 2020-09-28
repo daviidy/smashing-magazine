@@ -564,7 +564,7 @@ a {
 .guides {
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 50px;
+  padding: 100px 50px 0 50px;
 }
 
 .guide-item {
@@ -595,4 +595,60 @@ a {
 .guides .dark3 button {
   color: white;
   background-color: #313131;
+}
+
+/* NewsLetter section */
+
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #555;
+  width: 35%;
+  padding: 50px;
+  border-radius: 11px;
+  color: white;
+}
+
+.news-letter img {
+  width: 258px;
+  height: 290px;
+  filter: grayscale(100%);
+}
+
+.news-letter h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.news-letter p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.news-letter .email {
+  width: 100%;
+}
+
+.news-letter .email input {
+  width: 60%;
+  padding: 20px;
+  margin-right: 0;
+  color: white;
+  border-bottom-left-radius: 11px;
+  border-top-left-radius: 11px;
+  border: 0;
+}
+
+.news-letter .email button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -5px;
+}
+
+.news-letter .foot {
+  background-color: #646464;
+  border-radius: 11px;
+  width: 80%;
+  text-align: center;
 }
